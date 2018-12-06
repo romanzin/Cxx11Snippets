@@ -35,9 +35,22 @@ int main()
     std::cout << "\n";
   }
 
+  // decltype
+
   auto add = additive(0, 0.5);
 
   std::cout << add << "\n";
+
+  auto func_a = [](int a, int b) -> int
+  {
+    return a * b;
+  };
+
+  i = func_a(1, 2);
+
+  decltype(func_a) func_b = func_a; // the type of a lambda function is unique and unnamed
+
+  std::cout << "i = " << i << ", " << "j = " << func_b(3, 4) << '\n';
 
   return 0;
 }
