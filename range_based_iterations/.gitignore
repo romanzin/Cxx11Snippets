@@ -1,0 +1,6 @@
+Debug/
+Release/
+.vs/
+ipch/
+range_based_iterations.VC.db 
+range_based_iterations.vcxproj.filters 

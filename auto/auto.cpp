@@ -9,19 +9,19 @@
 #include <string>
 
 template <typename A, typename B>
-auto additive(A a, B b) -> decltype(a + b) 
+auto additive(A a, B b) -> decltype(a + b) // inspects the declared type of an entity or the type and value category of an expression.
 {
   return a + b;
 }
 
 int main()
 {
-  /* Simple variable */
+  // simple variable 
   auto i = 0x555;
 
   auto ptr = nullptr;
 
-  /* Container value */
+  // container value 
 
   std::map<std::string, std::vector<std::string>> map = { { "x0", { { "Alpha" }, { "Beta" } } } , { "y0",{ { "Gamma" },{ "Delta" } } } };
 
