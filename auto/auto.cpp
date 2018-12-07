@@ -23,7 +23,7 @@ int main()
   Options o = Options::All;
   auto en = Options::All;
 
-  int temp = (int)en;
+  int temp = (int)en; // explicit conversion to int
 
   // container value 
 
