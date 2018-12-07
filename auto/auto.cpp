@@ -9,12 +9,21 @@ auto additive(A a, B b) -> decltype(a + b) // inspects the declared type of an e
   return a + b;
 }
 
+enum class Options { None, One, All };
+
 int main()
 {
   // simple variable 
   auto i = 0x555;
 
   auto ptr = nullptr;
+
+  // strongly typed enum
+
+  Options o = Options::All;
+  auto en = Options::All;
+
+  int temp = (int)en;
 
   // container value 
 

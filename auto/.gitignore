@@ -1,8 +1,9 @@
+ipch/
+.vs/
+x64/
+x86/
 Debug/
 Release/
-x64/
-.vs/
-ipch/
 auto.VC.db 
 auto.VC.VC.opendb 
 auto.vcxproj.filters
