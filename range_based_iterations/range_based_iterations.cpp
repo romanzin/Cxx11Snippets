@@ -3,9 +3,26 @@
 
 #include "stdafx.h"
 
-
 int main()
 {
-    return 0;
+  std::map<std::string, std::vector<int>> map = { { "x0",{ { 0 },{ 1 } } } ,{ "y0",{ { 2 },{ 3 } } } };
+
+  for (const auto &kvp : map)
+  {
+    std::cout << kvp.first << std::endl;
+    for (auto v : kvp.second)
+    {
+      std::cout << v << std::endl;
+    }
+  }
+
+  int arr[] = { 1, 2, 3, 4, 5 };
+
+  for (int &e : arr)
+  {
+    e *= e;
+  }
+
+  return 0;
 }
 

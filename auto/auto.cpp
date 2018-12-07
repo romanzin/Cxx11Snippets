@@ -3,11 +3,6 @@
 
 #include "stdafx.h"
 
-#include <iostream>
-#include <map>
-#include <vector>
-#include <string>
-
 template <typename A, typename B>
 auto additive(A a, B b) -> decltype(a + b) // inspects the declared type of an entity or the type and value category of an expression.
 {
