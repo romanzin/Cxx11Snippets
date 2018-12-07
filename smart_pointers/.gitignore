@@ -1,0 +1,9 @@
+ipch/
+.vs/
+x64/
+x86/
+Debug/
+Release/
+smart_pointers.VC.db 
+smart_pointers.vcxproj.filters 
+ 
