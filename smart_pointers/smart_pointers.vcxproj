@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A07998EF-E051-45C9-8F5D-EC36921DA5FC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>smartpointers</RootNamespace>
+    <RootNamespace>smart_pointers</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <ProjectName>smart_pointers</ProjectName>
   </PropertyGroup>
