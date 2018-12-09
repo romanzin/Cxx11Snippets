@@ -1,0 +1,9 @@
+ipch/
+.vs/
+x64/
+x86/
+Debug/
+Release/
+move_semantic.VC.db
+move_semantic.vcxproj.filters
+
