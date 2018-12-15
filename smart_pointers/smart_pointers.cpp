@@ -18,6 +18,12 @@ void foo_bad(std::shared_ptr<int> p, int init)
   *p = init;
 }
 
+int seed()
+{
+  throw 1;
+  return 1;
+}
+
 int main()
 {
   std::unique_ptr<int> ptr1(new int(1));
@@ -41,9 +47,9 @@ int main()
   bar(ptr4);
   foo(ptr3.get());
 
-  // bad practice, rand may throw exception
+  // bad practice, seed may throw exception
 
-  foo_bad(std::shared_ptr<int>(new int(1)), rand());
+  foo_bad(std::shared_ptr<int>(new int(1)), seed());
 
   // good practice
 
