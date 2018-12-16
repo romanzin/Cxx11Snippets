@@ -10,6 +10,13 @@
 #include <stdio.h>
 #include <tchar.h>
 
+#include <iostream>
+
+#include <string>
+#include <map>
+#include <unordered_map>
+#include <set>
+#include <unordered_set>
 
 
 // TODO: reference additional headers your program requires here
